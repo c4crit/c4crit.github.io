@@ -45,26 +45,7 @@ function openAboutme() {
     }
 }
 
-let wakemeup = document.getElementById("wakemeup")
-function openWMU(){
-    if (wakemeup.style.display ==="block"){
-        wakemeup.style.display = "none"
-        popup.style.display="none"
-    } else {
-        wakemeup.style.display ="block"
-        popup.style.display="none"
-    }
-}
 
-function exitbtn(){
-    if (wakemeup.style.display ==="block"){
-        wakemeup.style.display = "none"
-    }
-
-    var video = document.getElementById("myVideo");
-    video.pause();
-    video.currentTime = 0;
-}
 
 function confirmExit() {
     if (window.confirm("Are you sure you want to exit?")) {
