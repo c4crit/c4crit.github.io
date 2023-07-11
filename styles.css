@@ -555,4 +555,10 @@ a{
     color: #fff;
     font-family: monospace;
 }
+.project-content p{
+    overflow: hidden;
+}
 
+.project-content p:hover{
+    overflow: visible;
+}
